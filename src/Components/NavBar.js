@@ -3,7 +3,7 @@ import './NavBar.css'
 
 export default function NavBar() {
   return (
-    <div class="container">
+    <div class="container abel-regular">
         {/* navigation bar */}
       <nav class="navbar">
         <h2>R.A.Jayasinghe Optical</h2>
