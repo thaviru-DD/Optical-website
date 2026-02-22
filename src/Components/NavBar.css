@@ -1,11 +1,11 @@
-/* add google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Cal+Sans&family=Passion+One:wght@400;700;900&family=Poiret+One&display=swap');
 
-.abel-regular {
-    font-family: "Abel", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+  }
 
 /* Add style to the navigation bar */
 .navbar{
@@ -48,5 +48,51 @@ a:hover{
 
 .signin-btn:hover{
     background-color: #0056b3;
-    padding: 13px 28px;
+}
+
+.menu-toggle{
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.mobile-btn{
+    display: none;
+}
+
+.desktop-btn{
+    display: block;
+}
+
+@media (max-width: 768px){
+
+    .nav-links{
+        position: absolute;
+        top: 70px;
+        right: -100%;
+        flex-direction: column;
+        background-color: white;
+        width: 250px;
+        padding: 20px;
+        transition: 0.3s ease;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .nav-links.active{
+        right: 0;
+    }
+
+    .menu-toggle{
+        display: block;
+    }
+
+    .desktop-btn{
+        display: none;
+    }
+
+    .mobile-btn{
+        display: block;
+        margin-top: 15px;
+    }
+
 }

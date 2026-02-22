@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+  }
+
+
+.hero{
+    position: relative;
+    width: 100%;
+}
+
+.hero-img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+
+.hero-container{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    
+}
+
+.buttons{
+    display: flex;
+    gap: 1em;
+    margin-top: 8%;
+}
+
+.shopNow-btn{
+    padding: 0.8em 1.7em;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-weight: 550;
+    cursor: pointer;
+    transition: all 0.3s ease 0.2s;
+}
+
+.contact-btn{
+    padding: 0.8em 2em;
+    border: none;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    border-radius: 5px;
+    font-weight: 550;
+    cursor: pointer;
+    transition: all 0.3s ease 0.2s;
+}
+
+.contact-btn:hover{
+    background-color:transparent;
+    border: 2px solid black;
+}
+
+.shopNow-btn:hover{
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.shopNow-btn:active{
+    transform: scale(0.98);
+}
+
+.contact-btn:active{
+    transform: scale(0.98);
+}
+
