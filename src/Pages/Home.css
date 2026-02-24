@@ -75,3 +75,42 @@
     transform: scale(0.98);
 }
 
+/* about us section */
+
+.about-us{
+    margin-top: 2%;
+    padding: 20px;
+    display: flex;
+    width: 100%;
+}
+
+.about-us-container h1, p{
+    color: #0C2C55;
+}
+
+.about-us-container p{
+    margin-top: 10px;
+    font-size: 1rem;
+    line-height: 1;
+    width: 48%;
+}
+
+.underline{
+    margin-top: 5px;
+    width: 15em;
+    height: 6px;
+    background-color: #0C2C55;
+    border-radius: 30px;
+}
+
+.sunglass-video{
+    width: 48%;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
